@@ -30,4 +30,3 @@ flutter run -d chrome
 
 # Запуск на Android
 flutter run -d android
->>>>>>> c737a275900fde88cb1f7ab83a5701eed869abb2
