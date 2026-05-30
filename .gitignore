@@ -1,0 +1,41 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+pubspec.lock
+build/
+*.iml
+*.swp
+.DS_Store
+
+# Android
+/android/.gradle/
+/android/local.properties
+/android/*.iml
+/android/app/build/
+
+# iOS
+/ios/.symlinks/
+/ios/Pods/
+/ios/*.xcworkspace/
+
+# Windows
+/windows/flutter/
+/windows/runner/Debug/
+/windows/x64/
+
+# Web
+/web/
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Git конфликты
+*.orig
+*.backup
+*.merge
+
+# Прочее
+*.log
+*.tmp

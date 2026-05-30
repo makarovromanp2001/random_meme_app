@@ -1,0 +1,33 @@
+# Имя проекта (должно совпадать с именем папки)
+name: random_meme_app
+
+# Описание проекта (отображается в pub.dev)
+description: Random meme app with favorites
+
+# Для приложений обычно 'none' (не публикуем на pub.dev)
+publish_to: 'none'
+
+# Версия приложения (1.0.0 - мажорная, 1 - билд)
+version: 1.0.0+1
+
+# Минимальные версии Dart SDK
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Основные зависимости (нужны для работы приложения)
+dependencies:
+  flutter:
+    sdk: flutter  # Основной фреймворк (встроен в Flutter SDK)
+  http: ^1.1.0    # Для HTTP запросов к API
+  shared_preferences: ^2.2.2  # Для сохранения избранного
+  cached_network_image: ^3.3.0  # Для кэширования картинок
+
+# Зависимости для разработки (не попадают в релиз)
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  # Для тестирования
+  flutter_lints: ^3.0.0  # Для проверки стиля кода
+
+# Конфигурация Flutter
+flutter:
+  uses-material-design: true  # Используем Material иконки
